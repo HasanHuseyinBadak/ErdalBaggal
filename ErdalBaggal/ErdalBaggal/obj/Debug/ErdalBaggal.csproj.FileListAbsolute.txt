@@ -1,0 +1,8 @@
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\bin\Debug\ErdalBaggal.exe.config
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\bin\Debug\ErdalBaggal.exe
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\bin\Debug\ErdalBaggal.pdb
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\obj\Debug\ErdalBaggal.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\obj\Debug\ErdalBaggal.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\obj\Debug\ErdalBaggal.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\obj\Debug\ErdalBaggal.exe
+C:\Users\DELL\source\repos\ErdalBaggal\ErdalBaggal\obj\Debug\ErdalBaggal.pdb
