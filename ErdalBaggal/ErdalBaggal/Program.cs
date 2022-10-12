@@ -172,9 +172,7 @@ namespace ErdalBaggal
 
 
             #endregion
-            #region 2- ÖDEV (ZORUNLU DEĞİL)
-            // 10 SORULU SINAV HAZIRLA CEVAPLARINI SONUNDA VE ALDIĞI PUANI YAZZDIR
-            #endregion
+            
         }
     }
 }
