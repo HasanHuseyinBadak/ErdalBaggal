@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ErdalBaggal
 {
-    internal class ErdalBaggal
+    public class ErdalBaggal
     {
         public int secim;
         public string menu;
