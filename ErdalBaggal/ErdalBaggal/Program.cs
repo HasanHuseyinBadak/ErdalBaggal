@@ -140,33 +140,34 @@ namespace ErdalBaggal
                     Console.WriteLine($"Kaç {erdalBakkal[erdalBakkal[i].secim - 1].birim} {erdalBakkal[erdalBakkal[i].secim - 1].menu} Almak İstersiniz");
                     adet = Convert.ToInt32(Console.ReadLine());
                     int kalan = 0;
-                    kalan = (erdalBakkal[erdalBakkal[i].secim - 1].stok - 1) - (adet -1);
-                   
+                    kalan = erdalBakkal[erdalBakkal[i].secim - 1].stok - adet;
+
                     if (kalan >= 0)
                     {
                         Console.WriteLine($"{adet} {erdalBakkal[erdalBakkal[i].secim - 1].birim} {erdalBakkal[erdalBakkal[i].secim - 1].menu} SEPETİNİZE EKLENDİ. ");
                         Console.WriteLine();
                         urunler = ($"{adet} {erdalBakkal[erdalBakkal[i].secim - 1].birim} ") + (erdalBakkal[erdalBakkal[i].secim - 1].menu) + ", " + urunler;
                         toplam = (erdalBakkal[erdalBakkal[i].secim - 1].fiyat * adet) + toplam;
-                        
-                    }
+                        Console.WriteLine($"{erdalBakkal[erdalBakkal[i].secim - 1].menu} Ürünümüzün Kalan Stok Sayısı {((erdalBakkal[erdalBakkal[i].secim - 1].stok) - adet)}");
+                        erdalBakkal[erdalBakkal[i].secim - 1].stok = (erdalBakkal[erdalBakkal[i].secim - 1].stok-1) - (adet -1);
+            }
 
                     else
-                    {
-                        Console.WriteLine($"Seçtiğiniz {erdalBakkal[erdalBakkal[i].secim - 1].menu} Stokta Olmadığından İşleme Devam Edilemiyor..");
-                    }
-                    Console.WriteLine($"{erdalBakkal[erdalBakkal[i].secim - 1].menu} Ürünümüzün Kalan Stok Sayısı {(stok)}");
+            {
+                Console.WriteLine($"Seçtiğiniz {erdalBakkal[erdalBakkal[i].secim - 1].menu} Stokta Olmadığından İşleme Devam Edilemiyor..");
+            }
 
 
 
 
-                    break;
-                }
-                
-                Console.WriteLine("Başka Ürün Almak İster misiniz? e/h ");
+
+            break;
+        }
+
+        Console.WriteLine("Başka Ürün Almak İster misiniz? e/h ");
                 tercih = Console.ReadLine();
             }
-            Console.Clear();
+    Console.Clear();
             Console.WriteLine($"        Aldığınız Ürünler;");
             Console.WriteLine();
             Console.WriteLine($"{urunler}");
